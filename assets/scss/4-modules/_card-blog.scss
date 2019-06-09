@@ -1,0 +1,38 @@
+.card {
+  i{
+    font-size: 13px;
+  }
+}
+
+.card-meta {
+  color: $gray-600;
+  font-size: .85rem;
+}
+
+.card-blog {
+    margin-bottom: 30px;
+  .text-muted{
+    color: $gray-700 !important;
+  }
+
+  .card-figure{
+    position: relative;
+  }
+  .card-figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-right: .5rem;
+    font-size: $font-size-sm;
+    a {
+      padding: {
+        top: .5rem;
+        bottom: .5rem;
+        left: $font-size-sm;
+        right: $font-size-sm;
+      };
+    }
+  }
+}

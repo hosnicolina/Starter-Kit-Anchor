@@ -8470,9 +8470,35 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
+.card i {
+  font-size: 13px; }
+
+.card-meta {
+  color: #6c757d;
+  font-size: .85rem; }
+
+.card-blog {
+  margin-bottom: 30px; }
+  .card-blog .text-muted {
+    color: #495057 !important; }
+  .card-blog .card-figure {
+    position: relative; }
+  .card-blog .card-figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-right: .5rem;
+    font-size: 0.875rem; }
+    .card-blog .card-figcaption a {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      padding-left: 0.875rem;
+      padding-right: 0.875rem; }
+
 body {
-  overflow-x: hidden;
-  color: red !important; }
+  overflow-x: hidden; }
 
 img {
   max-width: 100%; }
