@@ -8491,11 +8491,41 @@ html {
     padding-top: 1rem;
     margin-right: .5rem;
     font-size: 0.875rem; }
-    .card-blog .card-figcaption a {
-      padding-top: .5rem;
-      padding-bottom: .5rem;
-      padding-left: 0.875rem;
-      padding-right: 0.875rem; }
+
+.card-figcaption a {
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  padding-left: 0.875rem;
+  padding-right: 0.875rem; }
+
+.cardVertical {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  margin-bottom: 15px; }
+  .cardVertical-figure {
+    height: 100px;
+    margin: 0;
+    flex: 1 0 100px; }
+  .cardVertical-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.25rem; }
+  .cardVertical-content {
+    padding-left: 15px; }
+  .cardVertical .card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem; }
+
+.feadture-weekend {
+  max-height: 450px;
+  overflow: hidden; }
 
 body {
   overflow-x: hidden; }
