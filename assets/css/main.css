@@ -8471,7 +8471,7 @@ html {
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
 .card i {
-  font-size: 13px; }
+  font-size: 12px; }
 
 .card-meta {
   color: #6c757d;
@@ -8483,20 +8483,6 @@ html {
     color: #495057 !important; }
   .card-blog .card-figure {
     position: relative; }
-  .card-blog .card-figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    margin-right: .5rem;
-    font-size: 0.875rem; }
-
-.card-figcaption a {
-  padding-top: .4rem;
-  padding-bottom: .4rem;
-  padding-left: 0.875rem;
-  padding-right: 0.875rem; }
 
 .cardVertical {
   position: relative;
@@ -8523,9 +8509,74 @@ html {
     font-size: 1rem;
     margin-bottom: 0.5rem; }
 
+.card-post-author {
+  margin-right: 5px; }
+
 .feadture-weekend {
   max-height: 450px;
   overflow: hidden; }
+
+.cardLanscape {
+  word-wrap: break-word;
+  background-color: #fff; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.card-categories a {
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 400; }
+
+.absolute-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-right: .5rem; }
+
+.adsolute-center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translateY(-50%) translateX(50%);
+          transform: translateY(-50%) translateX(50%); }
+
+.absolute-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.z-index-2 {
+  position: relative;
+  z-index: 2; }
+
+.bg-cover-center {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.min-h-280 {
+  min-height: 280px; }
+
+.font-20 {
+  font-size: 20px; }
+
+.border-r-img {
+  border-radius: 0.25rem; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.text-1 {
+  font-size: 1rem; }
 
 body {
   overflow-x: hidden; }
@@ -8780,7 +8831,7 @@ a {
     width: 100%; }
 
 .overlay-black:before {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .overlay-blue:before {
   background-color: rgba(23, 29, 90, 0.5); }
