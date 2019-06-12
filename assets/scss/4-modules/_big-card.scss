@@ -1,0 +1,8 @@
+.bigCard{
+  .card-title {
+    font-size: 1rem;
+    @include media-breakpoint-up(md) {
+        font-size: 1.75rem;
+    }
+  }
+}

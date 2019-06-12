@@ -22,30 +22,6 @@
 <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
 
-<style media="screen">
-	.card-slider{
-		height: 450px;
-		text-align: center;
-	}
-
-	.card-slider .card-title{
-		font-size: 38px;
-		font-weight: 700;
-	}
-
-	.slick-current.slick-active{
-		color: red;
-	}
-	.slick-track{
-		transform: translate3d(0px, 0px, 0px) !important;
-	}
-
-	.rouder-avatar{
-		width: 50px;
-		height: 50px;
-	}
-</style>
-
 </head>
 
 <body>
@@ -89,112 +65,113 @@
 
 <!-- SLIDER -->
 
-<div class="container ">
-	<div class="row pt-5">
+<div class="container">
+	<div class="row py-5"> <!-- row -->
 		<div id="slider-loader" class="col-12 text-center">
 			<img src="./assets/slick/ajax-loader.gif" alt="loader">
 		</div>
-		<div id="slider-container" class="col-12 d-none">
-			<div class="slider-anchor">
+		<div id="slider-container" class="col-12 d-none"> <!-- slider-container-tab-->
+
+			<div class="slider-anchor-tab">
 				<!-- Card Overlay -->
 				<div class="card card-slider bg-dark overlay overlay-black  text-white shadow border-0 bg-cover-center"
 				style="background-image: url(./assets/img/demo/2.jpg);">
 
-						<div class="card-body adsolute-center p-2">
+						<div class="card-body p-2">
 							<span class="d-block card-categories mb-2">
 								<a class="badge badge-primary" href="#cat">FOOD</a>
 							</span>
 
 								<h3 class="card-title">
 									<a class="text-white" href="#">
-										Slider 1
+										This Is A Great Photo And Nice For Shooting
 									</a>
 								</h3>
-								<p class="card-meta m-0 text-white z-index-2">
-									<span class="card-post-author">
+								<p class="postMeta m-0 text-white z-index-2">
+									<span class="postMeta-author">
 										<a class="text-white" href="#author">
-											<i class="far fa-user"></i> Anna NikovaAnna
+											<i class="postMeta-icon far fa-user"></i> Anna NikovaAnna
 										</a>
 									</span>
-									<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+									<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 								</p>
 						</div>
 
 				</div>
-				<!-- Card Overlay -->
-				<!-- Card Overlay -->
+
+
 				<div class="card card-slider bg-dark overlay overlay-black text-white shadow border-0 bg-cover-center"
 				style="background-image: url(./assets/img/demo/3.jpg);">
 
-										<div class="card-body adsolute-center p-2">
+										<div class="card-body  p-2">
 											<span class="d-block card-categories mb-2">
-												<a class="badge badge-primary" href="#cat">FOOD</a>
+												<a class="badge badge-secondary" href="#cat">FOOD</a>
 											</span>
 
 												<h3 class="card-title font-20">
 													<a class="text-white" href="#">
-														Slider 2
+														This Big Boss Is Work Hard And Also Play Hard
 													</a>
 												</h3>
-												<p class="card-meta m-0 text-white z-index-2">
-													<span class="card-post-author">
+												<p class="postMeta m-0 text-white z-index-2">
+													<span class="postMeta-author">
 														<a class="text-white" href="#author">
-															<i class="far fa-user"></i> Anna NikovaAnna
+															<i class="postMeta-icon far fa-user"></i> Anna NikovaAnna
 														</a>
 													</span>
-													<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+													<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 												</p>
 										</div>
 
 				</div>
-				<!-- Card Overlay -->
-				<!-- Card Overlay -->
+
+
 				<div class="card card-slider bg-dark overlay  text-white overlay-black shadow border-0 bg-cover-center"
 				style="background-image: url(./assets/img/demo/4.jpg);">
 
-										<div class="card-body adsolute-center p-2">
+										<div class="card-body p-2">
 											<span class="d-block card-categories mb-2">
-												<a class="badge badge-primary" href="#cat">FOOD</a>
+												<a class="badge badge-info" href="#cat">FOOD</a>
 											</span>
 
 												<h3 class="card-title">
 													<a class="text-white" href="#">
-														Slider 3
+														Enjoy A Great View Of Flower Before The Sunset
 													</a>
 												</h3>
-												<p class="card-meta m-0 text-white z-index-2">
-													<span class="card-post-author">
+												<p class="postMeta m-0 text-white z-index-2">
+													<span class="postMeta-author">
 														<a class="text-white" href="#author">
-															<i class="far fa-user"></i> Anna NikovaAnna
+															<i class="postMeta-icon far fa-user"></i> Anna NikovaAnna
 														</a>
 													</span>
-													<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+													<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 												</p>
 										</div>
 
 				</div>
-				<!-- Card Overlay -->
-				<!-- Card Overlay -->
+
+
 				<div class="card card-slider bg-dark overlay  text-white overlay-black shadow border-0 bg-cover-center"
 				style="background-image: url(./assets/img/demo/5.jpg);">
 
-										<div class="card-body adsolute-center p-2">
+										<div class="card-body p-2">
 											<span class="d-block card-categories mb-2">
-												<a class="badge badge-primary" href="#cat">FOOD</a>
+												<a class="badge badge-purple" href="#cat">FOOD</a>
 											</span>
 
 												<h3 class="card-title">
 													<a class="text-white" href="#">
-														Slider 4
+														We Are Best Friends And We Been Every Where
 													</a>
 												</h3>
-												<p class="card-meta m-0 text-white z-index-2">
-													<span class="card-post-author">
+												<p class="postMeta m-0 text-white z-index-2">
+													<span class="postMeta-author">
 														<a class="text-white" href="#author">
-															<i class="far fa-user"></i> Anna NikovaAnna
+															<i class="postMeta-icon far fa-user"></i> Anna NikovaAnna
 														</a>
 													</span>
-													<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+													<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 												</p>
 										</div>
 
@@ -203,69 +180,70 @@
 			</div>
 
 
-				<div class="row mt-3"> <!-- row -->
+			<div class="row  slider-nav"> <!-- row -->
 
-					<div class="col-12 ">  <!-- col-12 -->
-						<div class="slider-anchor-nav">
-
-
-							<div class="cartita d-flex align-items-center">
-								<div class="rouder-avatar rounded-circle mr-2 bg-cover-center"
-									style="background-image: url(./assets/img/demo/2.jpg);"
-								></div>
-								<h3 class="m-0 text-1">slider 1</h3>
-							</div>
+				<div class="col-12">  <!-- col-12 -->
+					<div class="slider-anchor-tab-nav">
 
 
-
-							<div class="cartita d-flex align-items-center">
-								<div class="rouder-avatar rounded-circle mr-2 bg-cover-center"
-									style="background-image: url(./assets/img/demo/3.jpg);"
-								></div>
-								<h3 class="m-0 text-1">slider 2</h3>
-							</div>
-
-
-
-							<div class="cartita d-flex align-items-center">
-								<div class="rouder-avatar rounded-circle mr-2 bg-cover-center"
-									style="background-image: url(./assets/img/demo/4.jpg);"
-								></div>
-								<h3 class="m-0 text-1">slider 3</h3>
-							</div>
-
-
-
-							<div class="cartita d-flex align-items-center">
-								<div class="rouder-avatar rounded-circle mr-2 bg-cover-center"
-									style="background-image: url(./assets/img/demo/5.jpg);"
-								></div>
-								<h3 class="m-0 text-1">slider 4</h3>
-							</div>
-
+						<div class="cartita d-flex align-items-center">
+							<div class="rouder-avatar flex-shrink-0 rounded-circle mr-2 bg-cover-center"
+								style="background-image: url(./assets/img/demo/2.jpg);"
+							></div>
+							<h3 class="m-0 text-1">This Is A Great Photo And Nice For Shooting</h3>
 						</div>
 
-					</div> <!-- col-12 -->
 
-				</div> <!-- row -->
 
-		</div>
-	</div>
+						<div class="cartita d-flex align-items-center">
+							<div class="rouder-avatar flex-shrink-0 rounded-circle mr-2 bg-cover-center"
+								style="background-image: url(./assets/img/demo/3.jpg);"
+							></div>
+							<h3 class="m-0 text-1">This Big Boss Is Work Hard And Also Play Hard</h3>
+						</div>
+
+
+
+						<div class="cartita d-flex align-items-center">
+							<div class="rouder-avatar flex-shrink-0 rounded-circle mr-2 bg-cover-center"
+								style="background-image: url(./assets/img/demo/4.jpg);"
+							></div>
+							<h3 class="m-0 text-1">Enjoy A Great View Of Flower Before The Sunset</h3>
+						</div>
+
+
+
+						<div class="cartita d-flex align-items-center">
+							<div class="rouder-avatar flex-shrink-0 rounded-circle mr-2 bg-cover-center"
+								style="background-image: url(./assets/img/demo/5.jpg);"
+							></div>
+							<h3 class="m-0 text-1">We Are Best Friends And We Been Every Where</h3>
+						</div>
+
+					</div>
+
+				</div> <!-- col-12 -->
+
+			</div> <!-- row -->
+
+		</div> <!-- /slider-container-tab-->
+	</div> <!-- /end row -->
 </div>
 
 <!-- SLIDER -->
 
 
-<!--------------------------------------
-MAIN
---------------------------------------->
+<!--- MAIN --->
+
 <main class="main">
-	<section class="pt-5 container">
+
+
+	<section class="pt-5 container"> <!-- Section ultimas entradas -->
 		<h2 class="a-section-title">Ultimas Entradas</h2>
 
     <div class="row pt-5"> <!-- .row -->
 
-			<div class="col-12 col-sm-6 col-md-4"> <!-- col -->
+			<div class="col-12 col-md-6 col-lg-4"> <!-- col -->
         <!-- Simple Card -->
           <div class="card card-blog shadow-sm border-0">
               <figure class="m-0 card-figure">
@@ -275,10 +253,10 @@ MAIN
                 </figcaption>
               </figure>
               <div class="card-body">
-                  <h3 class="card-title  mb-2">Just a card</h3>
-                  <p class="card-meta mb-2">
-                    <span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-                    <span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+                  <h3 class="card-title  mb-2">This Place Really Good Place For Reading</h3>
+                  <p class="postMeta postMeta-small mb-2">
+                    <span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+                    <span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
                   </p>
                   <p class="card-text text-muted">
                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
@@ -288,90 +266,89 @@ MAIN
         <!-- Simple Card -->
       </div> <!-- col -->
 
-      <div class="col-12 col-sm-6 col-md-4"> <!-- col -->
-        <!-- Simple Card -->
-          <div class="card card-blog shadow-sm border-0">
-              <figure class="m-0 card-figure">
-                <img class="card-img-top" src="./assets/img/demo/blog3.jpg" alt="Card image cap">
-                <figcaption class="card-categories absolute-left">
-                  <a class="badge badge-primary" href="#">FOOD</a>
-                </figcaption>
-              </figure>
-              <div class="card-body">
-                  <h3 class="card-title mb-2">Just a card</h3>
-                  <p class="card-meta mb-2">
-                    <span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-                    <span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-                  </p>
-                  <p class="card-text text-muted">
-                       Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
-                  </p>
-              </div>
-          </div>
-        <!-- Simple Card -->
-      </div> <!-- col -->
+			<div class="col-12 col-md-6 col-lg-4"> <!-- col -->
+				<!-- Simple Card -->
+					<div class="card card-blog shadow-sm border-0">
+							<figure class="m-0 card-figure">
+								<img class="card-img-top" src="./assets/img/demo/3.jpg" alt="Card image cap">
+								<figcaption class="card-categories absolute-left">
+									<a class="badge badge-secondary" href="#">SPORT</a>
+								</figcaption>
+							</figure>
+							<div class="card-body">
+									<h3 class="card-title  mb-2">Having Fun With DJ And The Best Music Drop</h3>
+									<p class="postMeta postMeta-small mb-2">
+										<span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+										<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
+									</p>
+									<p class="card-text text-muted">
+											 Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
+									</p>
+							</div>
+					</div>
+				<!-- Simple Card -->
+			</div> <!-- col -->
 
-      <div class="col-12 col-sm-6 col-md-4"> <!-- col -->
-        <!-- Simple Card -->
-          <div class="card card-blog shadow-sm border-0">
-              <figure class="m-0 card-figure">
-                <img class="card-img-top" src="./assets/img/demo/blog4.jpg" alt="Card image cap">
-                <figcaption class="card-categories absolute-left">
-                  <a class="badge badge-primary" href="#">FOOD</a>
-                </figcaption>
-              </figure>
-              <div class="card-body">
-                  <h3 class="card-title mb-2">Just a card</h3>
-                  <p class="card-meta mb-2">
-                    <span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-                    <span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-                  </p>
-                  <p class="card-text text-muted">
-                       Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
-                  </p>
-              </div>
-          </div>
-        <!-- Simple Card -->
-      </div> <!-- col -->
+			<div class="col-12 col-md-6 col-lg-4"> <!-- col -->
+				<!-- Simple Card -->
+					<div class="card card-blog shadow-sm border-0">
+							<figure class="m-0 card-figure">
+								<img class="card-img-top" src="./assets/img/demo/4.jpg" alt="Card image cap">
+								<figcaption class="card-categories absolute-left">
+									<a class="badge badge-success" href="#">SPORT</a>
+								</figcaption>
+							</figure>
+							<div class="card-body">
+									<h3 class="card-title  mb-2">This Guitar Sound Is So Good And I Need It More</h3>
+									<p class="postMeta postMeta-small mb-2">
+										<span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+										<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
+									</p>
+									<p class="card-text text-muted">
+											 Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
+									</p>
+							</div>
+					</div>
+				<!-- Simple Card -->
+			</div> <!-- col -->
 
-			<div class="col-12 col-sm-6 col-md-4"> <!-- col -->
+			<div class="col-12 col-md-6 col-lg-4"> <!-- col -->
 				<!-- Simple Card -->
 					<div class="card card-blog shadow-sm border-0">
 							<figure class="m-0 card-figure">
 								<img class="card-img-top" src="./assets/img/demo/blog5.jpg" alt="Card image cap">
 								<figcaption class="card-categories absolute-left">
-									<a class="badge badge-primary" href="#">FOOD</a>
+									<a class="badge badge-danger" href="#">SPORT</a>
 								</figcaption>
 							</figure>
 							<div class="card-body">
-									<h3 class="card-title  mb-2">Just a card</h3>
-									<p class="card-meta mb-2">
-										<span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-										<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+									<h3 class="card-title  mb-2">Technology Can Make Your Live Easy And Fast</h3>
+									<p class="postMeta postMeta-small mb-2">
+										<span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+										<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 									</p>
 									<p class="card-text text-muted">
 											 Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
 									</p>
-
 							</div>
 					</div>
 				<!-- Simple Card -->
 			</div> <!-- col -->
 
-			<div class="col-12 col-sm-6 col-md-4"> <!-- col -->
+			<div class="col-12 col-md-6 col-lg-4"> <!-- col -->
 				<!-- Simple Card -->
 					<div class="card card-blog shadow-sm border-0">
 							<figure class="m-0 card-figure">
 								<img class="card-img-top" src="./assets/img/demo/blog6.jpg" alt="Card image cap">
 								<figcaption class="card-categories absolute-left">
-									<a class="badge badge-primary" href="#">FOOD</a>
+									<a class="badge badge-cyan" href="#">BLOG</a>
 								</figcaption>
 							</figure>
 							<div class="card-body">
-									<h3 class="card-title mb-2">Just a card</h3>
-									<p class="card-meta mb-2">
-										<span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-										<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+									<h3 class="card-title  mb-2">This Is All I Need For My Vocation In This Week</h3>
+									<p class="postMeta postMeta-small mb-2">
+										<span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+										<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 									</p>
 									<p class="card-text text-muted">
 											 Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
@@ -381,20 +358,20 @@ MAIN
 				<!-- Simple Card -->
 			</div> <!-- col -->
 
-			<div class="col-12 col-sm-6 col-md-4"> <!-- col -->
+			<div class="col-12 col-md-6 col-lg-4"> <!-- col -->
 				<!-- Simple Card -->
 					<div class="card card-blog shadow-sm border-0">
 							<figure class="m-0 card-figure">
-								<img class="card-img-top" src="./assets/img/demo/blog7.jpg" alt="Card image cap">
+								<img class="card-img-top" src="./assets/img/demo/7.jpg" alt="Card image cap">
 								<figcaption class="card-categories absolute-left">
-									<a class="badge badge-primary" href="#">FOOD</a>
+									<a class="badge badge-orange" href="#">SPORT</a>
 								</figcaption>
 							</figure>
 							<div class="card-body">
-									<h3 class="card-title mb-2">Just a card</h3>
-									<p class="card-meta mb-2">
-										<span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-										<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+									<h3 class="card-title  mb-2">Enjoy Your Work And Do What Ever You Want</h3>
+									<p class="postMeta postMeta-small mb-2">
+										<span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+										<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 									</p>
 									<p class="card-text text-muted">
 											 Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in...
@@ -404,17 +381,17 @@ MAIN
 				<!-- Simple Card -->
 			</div> <!-- col -->
 
+
     </div><!-- /.row -->
+	</section> <!-- Section ultimas entradas -->
 
-
-	</section>
 
 	<section class="pt-5">
 		<h2 class="a-section-title container">Lo mejor de la Semana</h2>
 		<div class="container"> <!-- container -->
 			<div class="row pt-5"> <!-- .row -->
 
-				<div class="col-12 col-md-6 col-lg-8 mb-3">
+				<div class="col-12 col-lg-8 mb-3 bigCard"> <!-- col-12 col-md-6 col-lg-8 mb-3 -->
 					<!-- Card Overlay -->
 						<div class="card bg-dark feadture-weekend overlay overlay-black text-white shadow border-0">
 						    <img class="card-img" src="./assets/img/demo/blog4.jpg" alt="Card image">
@@ -424,93 +401,43 @@ MAIN
 												<a class="badge badge-primary" href="#">FOOD</a>
 											</span>
 						            <h3 class="card-title"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-												<p class="card-meta m-0 text-white">
-													<span class="card-post-author"><i class="far fa-user"></i> Anna NikovaAnna</span>
-													<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+												<p class="postMeta postMeta-small m-0 text-white">
+													<span class="postMeta-author"><i class="postMeta-icon far fa-user"></i> Anna NikovaAnna</span>
+													<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 												</p>
 						        </div>
 						    </div>
 						</div><!-- /Card Overlay -->
-				</div>
+				</div><!-- /col-12 col-md-6 col-lg-8 mb-3 -->
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12  col-lg-4">
 
 					<!-- cardVertical -->
 					<div class="cardVertical shadow-sm">
 						<figure class="cardVertical-figure">
 							<img class="cardVertical-img" src="./assets/img/demo/blog3.jpg" alt="blog">
 						</figure>
-						<div class="cardVertical-content">
+						<div class="cardVertical-content pl-3">
 							<span class="d-block card-categories mb-2">
 								<a class="badge badge-primary" href="#">FOOD</a>
 							</span>
 								<h3 class="card-title"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-								<p class="card-meta m-0">
-									<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+								<p class="postMeta postMeta-small m-0">
+									<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 								</p>
 						</div>
 					</div>
 						<!-- /cardVertical -->
 
-					<!-- cardVertical -->
-					<div class="cardVertical shadow-sm">
-						<figure class="cardVertical-figure">
-							<img class="cardVertical-img" src="./assets/img/demo/blog1.jpg" alt="blog">
-						</figure>
-						<div class="cardVertical-content">
-							<span class="d-block card-categories mb-2">
-								<a class="badge badge-primary" href="#">FOOD</a>
-							</span>
-								<h3 class="card-title"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-								<p class="card-meta m-0">
-									<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-								</p>
-						</div>
-					</div>
-						<!-- /cardVertical -->
-
-					<!-- cardVertical -->
-					<div class="cardVertical shadow-sm">
-						<figure class="cardVertical-figure">
-							<img class="cardVertical-img" src="./assets/img/demo/blog2.jpg" alt="blog">
-						</figure>
-						<div class="cardVertical-content">
-							<span class="d-block card-categories mb-2">
-								<a class="badge badge-primary" href="#">FOOD</a>
-							</span>
-								<h3 class="card-title"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-								<p class="card-meta m-0">
-									<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-								</p>
-						</div>
-					</div>
-						<!-- /cardVertical -->
-
-					<!-- cardVertical -->
-					<div class="cardVertical shadow-sm">
-						<figure class="cardVertical-figure">
-							<img class="cardVertical-img" src="./assets/img/demo/7.jpg" alt="blog">
-						</figure>
-						<div class="cardVertical-content">
-							<span class="d-block card-categories mb-2">
-								<a class="badge badge-primary" href="#">FOOD</a>
-							</span>
-								<h3 class="card-title"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-								<p class="card-meta m-0">
-									<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-								</p>
-						</div>
-					</div>
-						<!-- /cardVertical -->
 
 				</div>
 
 			</div> <!-- /.row -->
 
-			<div class="row pt-3"><!-- /.row -->
+			<div class="row pt-3"><!-- .row -->
 
 
-				<div class="col-12 col-sm-6 col-md-4">
+				<div class="col-12 col-md-6 col-lg-4">
 					<!-- Card Overlay -->
 					<div class="card bg-dark overlay overlay-black text-white shadow border-0 bg-cover-center min-h-280"
 					style="background-image: url(./assets/img/demo/2.jpg);">
@@ -521,18 +448,18 @@ MAIN
 													<a class="badge badge-primary" href="#cat">FOOD</a>
 												</span>
 
-													<h3 class="card-title font-20">
+													<h3 class="card-title  font-20">
 														<a class="text-white" href="#">
-															It’s Always Fun Time And Smile In The Summer
+														Always Fun Time And Smile In The Summer
 														</a>
 													</h3>
-													<p class="card-meta m-0 text-white z-index-2">
-														<span class="card-post-author">
+													<p class="postMeta postMeta-small m-0 text-white z-index-2">
+														<span class="postMeta-author">
 															<a class="text-white" href="#author">
-																<i class="far fa-user"></i> Anna NikovaAnna
+																<i class="postMeta-icon far fa-user"></i> Anna NikovaAnna
 															</a>
 														</span>
-														<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+														<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 													</p>
 											</div>
 								</div>
@@ -541,67 +468,7 @@ MAIN
 					<!-- Card Overlay -->
 				</div>
 
-				<div class="col-12 col-sm-6 col-md-4">
-					<!-- Card Overlay -->
-					<div class="card bg-dark overlay overlay-black text-white shadow border-0 bg-cover-center min-h-280"
-					style="background-image: url(./assets/img/demo/7.jpg);">
-								<div class="card-img-overlay d-flex align-items-end">
-											<div class="card-body p-2">
-												<a href="#full" class="absolute-full"></a>
-												<span class="d-block card-categories absolute-left mb-2">
-													<a class="badge badge-primary" href="#cat">FOOD</a>
-												</span>
 
-													<h3 class="card-title font-20">
-														<a class="text-white" href="#">
-															It’s Always Fun Time And Smile In The Summer
-														</a>
-													</h3>
-													<p class="card-meta m-0 text-white z-index-2">
-														<span class="card-post-author">
-															<a class="text-white" href="#author">
-																<i class="far fa-user"></i> Anna NikovaAnna
-															</a>
-														</span>
-														<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-													</p>
-											</div>
-								</div>
-
-					</div>
-					<!-- Card Overlay -->
-				</div>
-
-				<div class="col-12 col-sm-6 col-md-4">
-					<!-- Card Overlay -->
-					<div class="card bg-dark overlay overlay-black text-white shadow border-0 bg-cover-center min-h-280"
-					style="background-image: url(./assets/img/demo/5.jpg);">
-								<div class="card-img-overlay d-flex align-items-end">
-											<div class="card-body p-2">
-												<a href="#full" class="absolute-full"></a>
-												<span class="d-block card-categories absolute-left mb-2">
-													<a class="badge badge-primary" href="#cat">FOOD</a>
-												</span>
-
-													<h3 class="card-title font-20">
-														<a class="text-white" href="#">
-															It’s Always Fun Time And Smile In The Summer
-														</a>
-													</h3>
-													<p class="card-meta m-0 text-white z-index-2">
-														<span class="card-post-author">
-															<a class="text-white" href="#author">
-																<i class="far fa-user"></i> Anna NikovaAnna
-															</a>
-														</span>
-														<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
-													</p>
-											</div>
-								</div>
-
-					</div>
-					<!-- Card Overlay -->
-				</div>
 
 
 			</div><!-- /.row -->
@@ -615,19 +482,19 @@ MAIN
 
 			<div class="row"><!-- .row -->
 
-				<div class="col-12 col-md-8">
+				<div class="col-12 col-lg-8">
 
 					<div class="cardLanscape border-r-img overflow-hidden shadow-sm row mb-30 no-gutters">
 
-						<figure class="m-0 cardLanscape-figure  col-6">
+						<figure class="m-0 cardLanscape-figure mb-3 mb-md-0 col-12 col-md-6">
 							<img class="img-fluid" src="./assets/img/demo/5.jpg" alt="card">
 						</figure>
-						<div class="cardLanscape-content col-6 pl-3">
-							<p class="card-meta mb-2">
+						<div class="cardLanscape-content col-12  col-md-6 pl-3">
+							<p class="postMeta mb-2">
 								<span class="card-categories">
 									<a class="badge badge-primary" href="#cat">FOOD</a>
 								</span>
-								<span class="card-post-date"><i class="far fa-clock"></i> Dec 24, 2016</span>
+								<span class="postMeta-date"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 							</p>
 							<h3 class="card-title"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
 							<p class="card-text text-muted">
@@ -639,7 +506,8 @@ MAIN
 
 
 				</div>
-				<div class="col-12 col-md-4">
+
+				<div class="col-12 col-lg-4">
 					SideBard
 				</div>
 
@@ -663,17 +531,17 @@ MAIN
 				Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem imperdiet ut imperdiet.
 			</p>
 		</div>
-		<div class="col-12 col-md-4">
+		<div class="col-12 col-lg-4">
 			<h5 class="mb-4 text-white">Recent Posts</h5>
 			<!-- cardVertical -->
-			<div class="cardVertical bg-black shadow-sm">
-				<div class="cardVertical-content">
+			<div class="cardVertical shadow-sm">
+				<div class="cardVertical-content pr-3">
 					<span class="d-block card-categories mb-2">
 						<a class="badge badge-primary text-white" href="#">FOOD</a>
 					</span>
 						<h3 class="card-title text-white"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-						<p class="card-meta m-0">
-							<span class="card-post-date text-white"><i class="far fa-clock"></i> Dec 24, 2016</span>
+						<p class="postMeta postMeta-small m-0">
+							<span class="postMeta-date text-white"><i class="postMeta-icon far fa-clock"></i> Dec 24, 2016</span>
 						</p>
 				</div>
 				<figure class="cardVertical-figure">
@@ -681,24 +549,9 @@ MAIN
 				</figure>
 			</div>
 				<!-- /cardVertical -->
-				<!-- cardVertical -->
-				<div class="cardVertical bg-black shadow-sm">
-					<div class="cardVertical-content">
-						<span class="d-block card-categories mb-2">
-							<a class="badge badge-primary text-white" href="#">FOOD</a>
-						</span>
-							<h3 class="card-title text-white"><strong>It’s Always Fun Time And Smile In The Summer</strong></h3>
-							<p class="card-meta m-0">
-								<span class="card-post-date text-white"><i class="far fa-clock"></i> Dec 24, 2016</span>
-							</p>
-					</div>
-					<figure class="cardVertical-figure">
-						<img class="cardVertical-img" src="./assets/img/demo/blog4.jpg" alt="blog">
-					</figure>
-				</div>
-				<!-- /cardVertical -->
+
 		</div>
-		<div class="col-12 col-md-4">
+		<div class="col-12 col-lg-4">
 			<h5 class="mb-4 text-white">Categories</h5>
 			<ul class="list-unstyled text-small">
 				<li>
@@ -771,7 +624,7 @@ AOS.init({
 <script type="text/javascript">
 	$(document).ready(function(){
 
-		$('.slider-anchor').slick({
+		$('.slider-anchor-tab').slick({
 			dots: false,
 	    speed: 600,
 	    autoplaySpeed: 6000,
@@ -783,13 +636,13 @@ AOS.init({
 	    nextArrow:'',
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
-			asNavFor: '.slider-anchor-nav'
+			asNavFor: '.slider-anchor-tab-nav'
 		});
 
-		$('.slider-anchor-nav').slick({
+		$('.slider-anchor-tab-nav').slick({
 			  slidesToShow: 4,
 			  slidesToScroll: 4,
-			  asNavFor: '.slider-anchor',
+			  asNavFor: '.slider-anchor-tab',
 			  focusOnSelect: true,
 			  responsive: [
 			    {
@@ -823,10 +676,12 @@ AOS.init({
 			  ]
 			});
 
-			$('#slider-loader').remove();
-			$('#slider-container').removeClass('d-none');
 
 
+			$('#slider-loader').delay('1000').remove();
+			$('#slider-container').delay('1000').addClass('animated');
+			$('#slider-container').delay('1000').addClass('fadeIn');
+			$('#slider-container').delay('1000').removeClass('d-none');
 
 	});
 

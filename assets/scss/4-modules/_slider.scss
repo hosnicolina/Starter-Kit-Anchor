@@ -1,0 +1,65 @@
+// Slider Tab
+.slider-anchor-tab {
+  margin-bottom: -60px;
+  .card-slider{
+    height: 450px;
+    text-align: center;
+  }
+  .card-title{
+    font-size: 1.75rem;
+    @include media-breakpoint-up(md) {
+      font-size: 38px;
+    }
+    font-weight: 700;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+// Slider Tab Nav
+.slider-anchor-tab-nav {
+
+  .slick-slide{
+    color: $gray-500;
+  }
+  .slick-slide.slick-current.slick-active{
+    color: #fff;
+
+    .rouder-avatar {
+      border: 2px solid #fff;
+      width: 53px;
+      height:53px;
+    }
+
+  }
+  .slick-track{
+    transform: translate3d(0px, 0px, 0px) !important;
+  }
+
+  .cartita {
+    justify-content: center;
+    @include media-breakpoint-up(lg) {
+      justify-content: flex-start;
+    }
+    h3 {
+      display: none;
+      @include media-breakpoint-up(lg) {
+        display: block;
+      }
+    }
+  }
+
+}
+
+.slider-nav {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

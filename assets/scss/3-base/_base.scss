@@ -1,1 +1,8 @@
 /* Base Styles -------------------- */
+
+.container {
+  max-width: 95%;
+  @include media-breakpoint-up(xl) {
+  max-width: 1200px;
+   }
+}

@@ -1,14 +1,3 @@
-.card {
-  i{
-    font-size: 12px;
-  }
-}
-
-.card-meta {
-  color: $gray-600;
-  font-size: .85rem;
-}
-
 .card-blog {
     margin-bottom: 30px;
   .text-muted{
@@ -19,58 +8,4 @@
     position: relative;
   }
 
-}
-
-
-
-.cardVertical{
-    position: relative;
-    display: flex;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border-radius: 0.25rem;
-    margin-bottom: 15px;
-
-  &-figure {
-    height: 100px;
-    margin: 0;
-    flex: 1 0 100px;
-  }
-
-  &-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.25rem;
-  }
-
-  &-content{
-    padding-left: 15px;
-  }
-
-  .card-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-}
-
-.card-post-author{
-  margin-right: 5px;
-}
-
-.feadture-weekend{
-  max-height: 450px;
-  overflow: hidden;
-}
-
-.cardLanscape {
-  word-wrap: break-word;
-  background-color: #fff;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }

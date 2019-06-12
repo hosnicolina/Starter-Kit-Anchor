@@ -1,3 +1,18 @@
+/* POST UTILS */
+
+.postMeta {
+  color: $gray-600;
+  &-icon{
+    font-size: 12px;
+  }
+  &-author {
+    margin-right: 5px;
+  }
+  &.postMeta-small {
+    font-size: .85rem;
+  }
+}
+
 .card-categories{
   a {
     padding: {
@@ -65,4 +80,40 @@
 
 .text-1{
   font-size: 1rem;
+}
+
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+
+.feadture-weekend{
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.cardLanscape {
+  word-wrap: break-word;
+  background-color: #fff;
+}
+
+
+.rouder-avatar{
+  width: 50px;
+  height: 50px;
+}
+
+.animated {
+   animation-duration: 5s;
+   animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+.fadeIn {
+   animation-name: fadeIn;
 }
