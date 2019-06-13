@@ -1,0 +1,21 @@
+.widgetSliderPosts-slider {
+  position: relative;
+}
+
+
+.slider-arrow-posts {
+  position: absolute;
+  top: 0;
+  &.right {
+    right: 15px;
+    padding: 1rem;
+  }
+  &.left {
+    z-index: 1;
+    right: 50px;
+    padding: 1rem;
+  }
+  i {
+    color: #fff;
+  }
+}

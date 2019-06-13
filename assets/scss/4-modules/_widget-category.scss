@@ -1,0 +1,35 @@
+.widgetCategoryImage {
+  &-wraper {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  &-link {
+    display: flex;
+    align-items: center;
+    padding: {
+      left: 1rem;
+      right: 1rem;
+    }
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  &-title {
+    margin-right: auto;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: $font-size-sm;
+    position: relative;
+  }
+  &-quantity{
+    position: relative;
+    font-size: 12px;
+    background: #fff;
+    color: #000;
+    height: 27px;
+    line-height: 27px;
+    min-width: 27px;
+    padding: 0px 10px;
+    border-radius: 100px;
+  }
+}

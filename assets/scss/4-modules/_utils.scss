@@ -7,6 +7,12 @@
   }
   &-author {
     margin-right: 5px;
+    a {
+      color: $gray-600;
+      &:hover {
+        color: $gray-800;
+      }
+    }
   }
   &.postMeta-small {
     font-size: .85rem;
@@ -24,6 +30,14 @@
     font-size: 0.75rem;
     font-weight: 400;
   }
+}
+
+.is_33 {
+  display: block;
+  height: 0;
+  padding-bottom: 33.3%;
+  overflow: hidden;
+  position: relative;
 }
 
 .absolute-left{
@@ -64,6 +78,10 @@
 
 .min-h-280{
   min-height: 280px;
+}
+
+.min-h-400{
+  min-height: 400px !important;
 }
 
 .font-20{

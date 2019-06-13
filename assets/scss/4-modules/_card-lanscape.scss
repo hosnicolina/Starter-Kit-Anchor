@@ -1,0 +1,9 @@
+.cardLanscape {
+  .card-title a {
+    color: $gray-800;
+    &:hover {
+      color: $purple;
+      text-decoration: none;
+    }
+  }
+}
