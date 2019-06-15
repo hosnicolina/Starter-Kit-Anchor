@@ -1,4 +1,6 @@
 .cardLanscape {
+  word-wrap: break-word;
+  background-color: #fff;
   .card-title a {
     color: $gray-800;
     &:hover {

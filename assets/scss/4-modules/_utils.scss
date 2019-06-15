@@ -20,17 +20,12 @@
 }
 
 .card-categories{
-  a {
-    padding: {
-      top: .4rem;
-      bottom: .4rem;
-      left: $font-size-sm;
-      right: $font-size-sm;
-    };
-    font-size: 0.75rem;
-    font-weight: 400;
-  }
+
 }
+
+
+
+
 
 .is_33 {
   display: block;
@@ -111,11 +106,6 @@
   overflow: hidden;
 }
 
-.cardLanscape {
-  word-wrap: break-word;
-  background-color: #fff;
-}
-
 
 .rouder-avatar{
   width: 50px;
@@ -134,4 +124,35 @@
 
 .fadeIn {
    animation-name: fadeIn;
+}
+
+// Badges
+
+%badge {
+  padding: .4rem $font-size-sm;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.badge.badge-big{
+  @extend %badge;
+}
+
+.badge.badge-larg{
+  padding: .3rem 1.25rem;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.badge.badge-outlined-purple {
+  background-color: transparent;
+  border: 1px solid $purple;
+  color: $purple;
+}
+
+
+.badge.badge-outlined-danger {
+  background-color: transparent;
+  border: 1px solid $danger;
+  color: $danger;
 }

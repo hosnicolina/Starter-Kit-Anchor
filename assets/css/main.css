@@ -8475,6 +8475,11 @@ html {
     .container {
       max-width: 1200px; } }
 
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
 .card-blog {
   margin-bottom: 30px; }
   .card-blog .text-muted {
@@ -8543,14 +8548,6 @@ html {
   .postMeta.postMeta-small {
     font-size: .85rem; }
 
-.card-categories a {
-  padding-top: .4rem;
-  padding-bottom: .4rem;
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
-  font-size: 0.75rem;
-  font-weight: 400; }
-
 .is_33 {
   display: block;
   height: 0;
@@ -8615,10 +8612,6 @@ html {
   max-height: 450px;
   overflow: hidden; }
 
-.cardLanscape {
-  word-wrap: break-word;
-  background-color: #fff; }
-
 .rouder-avatar {
   width: 50px;
   height: 50px; }
@@ -8644,6 +8637,26 @@ html {
 .fadeIn {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn; }
+
+.badge.badge-big {
+  padding: 0.4rem 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 400; }
+
+.badge.badge-larg {
+  padding: .3rem 1.25rem;
+  font-size: .8rem;
+  font-weight: 400; }
+
+.badge.badge-outlined-purple {
+  background-color: transparent;
+  border: 1px solid #ad6edd;
+  color: #ad6edd; }
+
+.badge.badge-outlined-danger {
+  background-color: transparent;
+  border: 1px solid #ff5916;
+  color: #ff5916; }
 
 .slider-anchor-tab {
   margin-bottom: -60px; }
@@ -8725,11 +8738,14 @@ html {
   padding: 0px 10px;
   border-radius: 100px; }
 
-.cardLanscape .card-title a {
-  color: #343a40; }
-  .cardLanscape .card-title a:hover {
-    color: #ad6edd;
-    text-decoration: none; }
+.cardLanscape {
+  word-wrap: break-word;
+  background-color: #fff; }
+  .cardLanscape .card-title a {
+    color: #343a40; }
+    .cardLanscape .card-title a:hover {
+      color: #ad6edd;
+      text-decoration: none; }
 
 .widget {
   margin-bottom: 50px; }
