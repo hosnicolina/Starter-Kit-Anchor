@@ -1,0 +1,26 @@
+.nav-posts{
+  &-title {
+    color: $gray-900;
+    font-size: 1.25rem;
+    font-weight: bold;
+    transition: all ease .2s;
+  }
+  &-meta {
+    color: $gray-600;
+  }
+  &-link:hover &-title{
+    color: $purple;
+  }
+}
+
+.entry-related-posts-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.entry-footer{
+  .card-title{
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+}
